@@ -75,7 +75,7 @@ Information collectors should ensure that the data they collect is accurate and 
 
 In order to ensure that companies follow the Fair Information Practice Principles, there must be enforcement measures. The FTC identified three types of enforcement measures: self-regulation by the information collectors or an appointed regulatory body; private remedies that give civil causes of action for individuals whose information has been misused to sue violators; and government enforcement that can include civil and criminal penalties levied by the government.
 
-### 4. Potential Application of these Principles to Location MIT Private Kit: Safe Paths Open Source
+### 4. Potential Application of these Principles to MIT Private Kit Safe Paths Open Source Project
 
 * Possible contacts determined privately on a user’s own device using open source code and cryptographic algorithms
 * Data never leave the user’s device (100% local), unless they become ill and opt to release it to a health official
