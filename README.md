@@ -1,12 +1,14 @@
 # CV19 Contact Tracing Privacy Principles
 
-This draft document is for rapid input in support of an upcoming Special Release on CV19 Legal Frameworks to be published as part of the MIT Computational Law Report at Law.MIT.edu.  An editorial and research tiger team are actively collecting and curating privacy principles for CV19 contact tracing applications and services that leverage personal individual location and proximity data.  To offer feedback on or other contributions to this specific content on CV19 contact tracing privacy principles please make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) to this repository with proposed edits to this file.  To propose other content for publication as part of the MIT Computational Law Report please refer to our [Submission](https://law.mit.edu/submissions) page.
+This draft document is for rapid input in support of an upcoming Special Release on CV19 Legal Frameworks to be published as part of the MIT Computational Law Report at Law.MIT.edu.  An editorial and research tiger team are actively collecting and curating privacy principles for CV19 contact tracing applications and services that leverage personal individual location and proximity data.  To offer feedback on or other contributions to this specific content on CV19 contact tracing privacy principles please make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) or add a [GitHub Issue](https://github.com/mitmedialab/CV19-Data-Privacy-Principles/issues) to this repository with proposed edits to this file.  To propose other content for publication as part of the MIT Computational Law Report please refer to our [Submission](https://law.mit.edu/submissions) page.
+
+We have included materials from other groups on contact tracing privacy principles as well, potentially to synthesise into an overall set of principles.
 
 -----
 
 # Law.MIT.edu Draft Contact Tracing Privacy Principles
 
-* Developed by: MIT Volunteer Drafting Team including: [Dazza Greenwood](https://www.linkedin.com/in/dazzagreenwood/), [Gregory Nadeau](https://www.linkedin.com/in/greg-nadeau-54529514), [Pagona Tsormpatzoudi](https://www.linkedin.com/in/pagona-tsormpatzoudi-0324903a) (others to be added to list as permissions are received)
+* Developed by: MIT Volunteer Drafting Team including: [Dazza Greenwood](https://www.linkedin.com/in/dazzagreenwood/), [Gregory Nadeau](https://www.linkedin.com/in/greg-nadeau-54529514), [Pagona Tsormpatzoudi](https://www.linkedin.com/in/pagona-tsormpatzoudi-0324903a), [Bryan Wilson](https://www.linkedin.com/in/bryangw) (others to be added to list as permissions are received)
 * As collected on April 2, 2020
 * [https://mitmedialab.github.io/CV19-Data-Privacy-Principles](https://mitmedialab.github.io/CV19-Data-Privacy-Principles)
 
@@ -85,6 +87,10 @@ In order to ensure that companies follow the Fair Information Practice Principle
 
 ---------
 
+> _Below, Please find other relevant sources currenbtly under consideration for incorporation into a general set of CV19 Contact Tracing Principles.  If you are aware of other example materials relevant to CV19 contact tracing please let us know in our [GitHub Issues](https://github.com/mitmedialab/CV19-Data-Privacy-Principles/issues)._
+
+---------
+
 # Contact Tracing Bill of Rights
 
 * Developed by: CoEpi and CovidWatch Source:
@@ -102,8 +108,7 @@ In order to ensure that companies follow the Fair Information Practice Principle
 **5. If apps collect any information, such as location histories, that is not essential for alerting others who may be exposed, users must not be expected or coerced to share that information by default. If a contact tracing app allows for the sharing of any location history, symptom reports, demographic information, or similar with public health officials or similar, such sharing must be completely anonymous, voluntary, and opt-in, and based on clear and easy to understand informed consent.**
 
 
-------
-
+-----
 
 # Evaluating COVID-19 contact tracing apps? Here are 8 privacy questions we think you should ask.
 
