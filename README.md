@@ -16,7 +16,7 @@ Each of us is the primary owner of our personal data.  Services that we each use
 
 Health, education, location, and contact tracing data is personal data.  No service provider or government agency should be able to use that data without user consent.
 
-#3# 2. Technology should follow the principles of Privacy by Design
+### 2. Technology should follow the principles of Privacy by Design
 
 * Proactive not reactive; preventive, not remedial
 * Privacy as the default
