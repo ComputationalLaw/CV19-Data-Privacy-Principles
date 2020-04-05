@@ -89,7 +89,7 @@ In order to ensure that companies follow the Fair Information Practice Principle
 
 * Developed by: CoEpi and CovidWatch Source:
 * As collected on April 2, 2020
-* https://github.com/Co-Epi/CEN/blob/main/ContactTracingBillOfRights.md 
+* [https://github.com/Co-Epi/CEN/blob/main/ContactTracingBillOfRights.md](https://github.com/Co-Epi/CEN/blob/main/ContactTracingBillOfRights.md)
 
 ### 1. Users must be able to install and use a contact tracing app without having to divulge any personal information to anyone.
 
@@ -109,7 +109,7 @@ In order to ensure that companies follow the Fair Information Practice Principle
 
 * Developed by: Yves-Alexandre de Montjoye, Florimond Houssiau, Andrea Gadotti and Florent Guepin
 * As collected on April 2, 2020
-* https://cpg.doc.ic.ac.uk/blog/evaluating-contact-tracing-apps-here-are-8-privacy-questions-we-think-you-should-ask 
+* [https://cpg.doc.ic.ac.uk/blog/evaluating-contact-tracing-apps-here-are-8-privacy-questions-we-think-you-should-ask](https://cpg.doc.ic.ac.uk/blog/evaluating-contact-tracing-apps-here-are-8-privacy-questions-we-think-you-should-ask)
 
 As strong measures are being put in place to slow down the spread of COVID-19, many are looking at how technology and data could help. With many countries using mobile phone location data to analyze the effectiveness of social distancing measures and help predict the potential geographic spread of the disease, the focus has now shifted to whether mobile phones could also help warn users if they have been exposed to an infected person.
 
