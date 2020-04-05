@@ -1,6 +1,6 @@
 # CV19 Contact Tracing Privacy Principles
 
-The [Law.MIT.edu](https://law.mit.edu) research team is actively collecting and curating privacy principles for contact tracing applications and services that leverage personal individual location and proximity data.  We intend to publish key developments in this space on an ongoing basis through the MIT Computational Law Report Special Release on CV19 Legal Frameworks.
+The [Law.MIT.edu](https://law.mit.edu) Special Release on CV19 Legal Frameworks research team is actively collecting and curating privacy principles for CV19 contact tracing applications and services that leverage personal individual location and proximity data.  We intend to publish key developments in this space on an ongoing basis through the MIT Computational Law Report Special Release on CV19 Legal Frameworks.
 
 -----
 
