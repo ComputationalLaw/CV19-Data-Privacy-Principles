@@ -10,13 +10,13 @@ The Law.MIT.edu research team is actively collecting and curating privacy princi
 * As collected on April 2, 2020
 * [https://mitmedialab.github.io/CV19-Data-Privacy-Principles](https://mitmedialab.github.io/CV19-Data-Privacy-Principles)
 
-## 1. Summary
+### 1. Summary
 
 Each of us is the primary owner of our personal data.  Services that we each use may have additional limited rights and responsibilities to our personal data, based on specified terms and conditions appropriate to the service.  A doctor, for example, has the right to maintain patient data and the responsibility to preserve it and only share it with patient consent.
 
 Health, education, location, and contact tracing data is personal data.  No service provider or government agency should be able to use that data without user consent.
 
-## 2. Technology should follow the principles of Privacy by Design
+#3# 2. Technology should follow the principles of Privacy by Design
 
 * Proactive not reactive; preventive, not remedial
 * Privacy as the default
@@ -26,9 +26,9 @@ Health, education, location, and contact tracing data is personal data.  No serv
 * Visibility and transparency – keep it open
 * Respect for user privacy – keep it user-centric
 
-## 3. Data should be protected in accordance with Fair Information Practice Principles (FIPPs)
+### 3. Data should be protected in accordance with Fair Information Practice Principles (FIPPs)
 
-### Notice/Awareness
+#### Notice/Awareness
 
 Consumers should be given notice of an entity's information practices before any personal information is collected from them.[10] This requires that companies explicitly notify some or all of the following:
 
@@ -39,7 +39,7 @@ Consumers should be given notice of an entity's information practices before any
 * whether the provision of the requested data is voluntary or required;
 * the steps taken by the data collector to ensure the confidentiality, integrity, and quality of the data.
 
-### Choice/Consent
+#### Choice/Consent
 
 Choice and consent in an on-line information-gathering sense means giving consumers options to control how their data is used. Specifically, choice relates to secondary uses of information beyond the immediate needs of the information collector to complete the consumer's transaction. The two typical types of choice models are 'opt-in' or 'opt-out.'
 
@@ -67,15 +67,15 @@ Access/Participation
 
 Access includes not only a consumer's ability to view the data collected but also to verify and contest its accuracy. This access must be inexpensive and timely in order to be useful to the consumer.
 
-### Integrity/Security
+#### Integrity/Security
 
 Information collectors should ensure that the data they collect is accurate and secure. They can improve the integrity of data by cross-referencing it with only reputable databases and by providing access for the consumer to verify it. Information collectors can keep their data secure by protecting against both internal and external security threats. They can limit access within their company to only necessary employees to protect against internal threats, and they can use encryption and other computer-based security systems to stop outside threats.
 
-### Enforcement/Redress
+#### Enforcement/Redress
 
 In order to ensure that companies follow the Fair Information Practice Principles, there must be enforcement measures. The FTC identified three types of enforcement measures: self-regulation by the information collectors or an appointed regulatory body; private remedies that give civil causes of action for individuals whose information has been misused to sue violators; and government enforcement that can include civil and criminal penalties levied by the government.
 
-## 4. Potential Application of these Principles to Location MIT Private Kit: Safe Paths Open Source
+### 4. Potential Application of these Principles to Location MIT Private Kit: Safe Paths Open Source
 
 * Possible contacts determined privately on a user’s own device using open source code and cryptographic algorithms
 * Data never leave the user’s device (100% local), unless they become ill and opt to release it to a health official
@@ -91,15 +91,19 @@ In order to ensure that companies follow the Fair Information Practice Principle
 * As collected on April 2, 2020
 * https://github.com/Co-Epi/CEN/blob/main/ContactTracingBillOfRights.md 
 
-## 1. Users must be able to install and use a contact tracing app without having to divulge any personal information to anyone.
+### 1. Users must be able to install and use a contact tracing app without having to divulge any personal information to anyone.
 
-## 2. Contact tracing apps must not disclose any information during normal operation that can be used by third parties to track a user’s interactions or locations.
+### 2. Contact tracing apps must not disclose any information during normal operation that can be used by third parties to track a user’s interactions or locations.
 
-## 3. All information disclosed by users through a contact-tracing app must be completely opt-in, with clear informed consent both as to the nature of what they’re disclosing and the likely impacts of doing so.
+### 3. All information disclosed by users through a contact-tracing app must be completely opt-in, with clear informed consent both as to the nature of what they’re disclosing and the likely impacts of doing so.
 
-## 4. When users choose to altruistically share information, that information must remain completely anonymous: no information may be required other than that which is essential for alerting others to potential exposure.
+### 4. When users choose to altruistically share information, that information must remain completely anonymous: no information may be required other than that which is essential for alerting others to potential exposure.
 
-## 5. If apps collect any information, such as location histories, that is not essential for alerting others who may be exposed, users must not be expected or coerced to share that information by default. If a contact tracing app allows for the sharing of any location history, symptom reports, demographic information, or similar with public health officials or similar, such sharing must be completely anonymous, voluntary, and opt-in, and based on clear and easy to understand informed consent.
+### 5. If apps collect any information, such as location histories, that is not essential for alerting others who may be exposed, users must not be expected or coerced to share that information by default. If a contact tracing app allows for the sharing of any location history, symptom reports, demographic information, or similar with public health officials or similar, such sharing must be completely anonymous, voluntary, and opt-in, and based on clear and easy to understand informed consent.
+
+
+------
+
 
 # Evaluating COVID-19 contact tracing apps? Here are 8 privacy questions we think you should ask.
 
@@ -119,7 +123,7 @@ Apps are being developed around the world and are likely to be available within 
 
 Privacy is a crucial component in the equation. In this post, we propose 8 questions one should ask to assess privacy in contact tracing apps.
 
-## Contact tracing – Setup
+### Contact tracing – Setup
 
 We here focus on contact tracing apps installed by users and empowering them: apps informing users that they have been in close proximity with an infected individual in the past and providing them with recommendations on what to do.
 
@@ -137,7 +141,7 @@ A digital contact tracing app would typically work like this: Bluetooth signals 
 
 To illustrate the vulnerabilities our questions are meant to surface, we use three “toy” protocols. Note that they are only meant to illustrate the questions and are not complete, deployable solutions for contact tracing, nor even good protocols.
 
-### Toy protocol 1 (using location):
+#### Toy protocol 1 (using location):
 
 Each app only records its own location.
 
@@ -145,7 +149,7 @@ When a user reports as infected, they send their trajectory (location and time) 
 
 The authority shares the pseudonymous trajectories of all infected users with every user. Users can then check if they were in close contact with an infected individual.
 
-### Toy protocol 2 (using Bluetooth):
+#### Toy protocol 2 (using Bluetooth):
 
 Each app broadcasts a unique identifier assigned by the authority through Bluetooth.
 
@@ -155,7 +159,7 @@ When a user reports as infected, they send all the identifiers they encountered 
 
 The authority contacts all the users whose identifier was encountered by an infected user.
 
-### Toy protocol 3 (using Bluetooth):
+#### Toy protocol 3 (using Bluetooth):
 
 Each app broadcasts a unique identifier using Bluetooth, assigned by the authority. This unique identifier is reset every hour.
 
@@ -167,51 +171,51 @@ The authority shares the identifiers of all infected users with every user. User
 
 Using this vocabulary and definitions, we propose 8 privacy questions that we would like app developers to answer. We hope these questions will help start a high-level discussion to systematically evaluate potential vulnerabilities and real risks in existing and future contact tracing apps.
 
-## The questions
+### The questions
 
-### 1. How do you limit the personal data gathered by the authority?
+#### 1. How do you limit the personal data gathered by the authority?
 
 Large-scale collection of personal data can quickly lead to mass surveillance.
 
 In protocol 1, the authority learns the whole trajectory of infected users. In protocol 2, the authority learns the entire pseudonymous social graph of infected users, along with timestamps, which has been shown to be easily re-identifiable. Both collect large amounts of personal data. Protocol 3 does better in that regard, with the authority only observing the pseudonyms of infected users (with changing identifiers).
 
-### 2. How do you protect the anonymity of every user?
+#### 2. How do you protect the anonymity of every user?
 
 Users’ identities should be protected. Special measures should be put in place to limit the risk that users can be re-identified by the authority, other users, or external parties.
 
 Protocol 1 doesn’t technically give the authority the identity of users. However, researchshows that location traces are highly unique, and could probably be easily linked back to a person. Protocol 2 is worse, as the users are given a unique identifier by the authority, which can link these identifiers to the phone. Protocol 3 is much better – as long as connections with the server are anonymous (e.g. using Toror mixes), the user’s identity could be kept secret.
 
-### 3. Does your system reveal to the authority the identity of users who are at risk?
+#### 3. Does your system reveal to the authority the identity of users who are at risk?
 
 The goal of contact tracing is to let people know they have been in contact with someone who was infected. The authority should not know who these people are.
 
 No for protocols 1 and 3, which never require data from non-infected users. Yes for Protocol 2, in which the authority explicitly contacts at risk users, and could use this information to, e.g., force them into quarantine.
 
-### 4. Could your system be used by users to learn who is infected or at risk, even in their social circle?
+#### 4. Could your system be used by users to learn who is infected or at risk, even in their social circle?
 
 Having been in contact and infecting someone may become a matter of life and death. Digital contact tracing should warn people at risk without revealing who might have infected them.
 
 Protocol 1 exposes the full data of infected users publicly: every user can then check if a particular person they know is in the dataset. In protocol 3, a user at risk learns the hour at which they met an infected user, and can probably find out who infected them. Protocol 2, on the other hand, prevents users from learning anything about one another.
 
-### 5. Does your system allow users to learn any personal information about other users?
+#### 5. Does your system allow users to learn any personal information about other users?
 
 Apps should not need to leak information on a user’s locations or social networks to other users.
 
 All three protocols protect data of non-infected users, but only protocol 2 prevents users from learning anything about infected users. Protocol 1 exposes their entire trajectory. Protocol 3 leaks small amounts of information: identifiers encountered by infected individuals. It is possible for a user to recognize identifiers they have encountered and learn that the user to whom the identifier belongs is at risk.
 
-### 6. Could external parties exploit your system to track users or infer whether they are infected?
+#### 6. Could external parties exploit your system to track users or infer whether they are infected?
 
 The system should take into account the risk of external adversaries, including well-resourced ones.
 
 Both protocols 2 and 3 force phones to broadcast an identifier. An entity could install Bluetooth trackers to cover a city, or install malicious code on phones, and record the identifiers that they observe in specific locations. In our research, we showed that trackers installed on the phones 1% of London’s population would allow an attacker to track the real-time location of over half of the city. Protocol 3 makes this attack much more difficult, as the identifiers change every hour.
 
-### 7. Do you put in place additional measures to protect the personal data of infected and at risk users?
+#### 7. Do you put in place additional measures to protect the personal data of infected and at risk users?
 
 The system design may require revealing more personal information about users who are infected or exposed. But these are often the people who are more vulnerable and at risk.
 
 Protocol 1, and to some extent protocols 2 and 3, require infected users to share more data. Users at risk are however safe in protocol 1 and 2, but not in protocol 3, where some of the identifiers that they have used are published.
 
-### 8. How can we verify that the system does what it says?
+#### 8. How can we verify that the system does what it says?
 
 Large-scale contact tracing is too sensitive to rely on blind trust. Transparency is essential to prove that the app functions as advertised.
 
