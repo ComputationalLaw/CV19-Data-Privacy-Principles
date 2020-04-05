@@ -16,7 +16,7 @@ Each of us is the primary owner of our personal data.  Services that we each use
 
 Health, education, location, and contact tracing data is personal data.  No service provider or government agency should be able to use that data without user consent.
 
-### 2. Technology should follow the principles of Privacy by Design
+### 2. Technology should follow the principles of [Privacy by Design](https://en.wikipedia.org/wiki/Privacy_by_design)
 
 * Proactive not reactive; preventive, not remedial
 * Privacy as the default
@@ -26,7 +26,7 @@ Health, education, location, and contact tracing data is personal data.  No serv
 * Visibility and transparency – keep it open
 * Respect for user privacy – keep it user-centric
 
-### 3. Data should be protected in accordance with Fair Information Practice Principles (FIPPs)
+### 3. Data should be protected in accordance with [Fair Information Practice Principles (FIPPs)](https://en.wikipedia.org/wiki/FTC_fair_information_practice)
 
 #### Notice/Awareness
 
@@ -49,21 +49,21 @@ The 'opt-out' method requires consumers to affirmatively decline permission for 
 
 Each of these systems can be designed to allow an individual consumer to tailor the information gatherer's use of the information to fit their preferences by checking boxes to grant or deny permission for specific purposes rather than using a simple "all or nothing" method.
 
-Implementation guidance:
+> Implementation guidance:
 
-It is recommended that the opt-in consent option is implemented as that will comply with a good number of data protection laws globally
+> It is recommended that the opt-in consent option is implemented as that will comply with a good number of data protection laws globally
 
-Template consent language like the below should be considered:
+> Template consent language like the below should be considered:
 
-“I consent to (Add Controller Name OR App Name if whitelabelled to the Controller) processing my:
+> “I consent to (Add Controller Name OR App Name if whitelabelled to the Controller) processing my:
 
-(Add unticked checkbox OR toggle off) Location data
+> (Add unticked checkbox OR toggle off) Location data
 
-(Add unticked checkbox OR toggle off) Health data for the purpose of COVID 19 contact tracing in accordance with the (Add link to the Controller Privacy Notice).”
+> (Add unticked checkbox OR toggle off) Health data for the purpose of COVID 19 contact tracing in accordance with the (Add link to the Controller Privacy Notice).”
 
-There are alternative ways to present substantially similar text in the UX. E.g. splitting the screens and adding a “continue” button. Then the language will be adapted to “By clicking continue..”
+> There are alternative ways to present substantially similar text in the UX. E.g. splitting the screens and adding a “continue” button. Then the language will be adapted to “By clicking continue..”
 
-Access/Participation
+#### Access/Participation
 
 Access includes not only a consumer's ability to view the data collected but also to verify and contest its accuracy. This access must be inexpensive and timely in order to be useful to the consumer.
 
