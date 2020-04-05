@@ -27,7 +27,7 @@ Health, education, location, and contact tracing data is personal data.  No serv
 
 ## 3. Data should be protected in accordance with Fair Information Practice Principles (FIPPs)
 
-Notice/Awareness
+### Notice/Awareness
 
 Consumers should be given notice of an entity's information practices before any personal information is collected from them.[10] This requires that companies explicitly notify some or all of the following:
 
@@ -38,7 +38,7 @@ Consumers should be given notice of an entity's information practices before any
 * whether the provision of the requested data is voluntary or required;
 * the steps taken by the data collector to ensure the confidentiality, integrity, and quality of the data.
 
-Choice/Consent
+### Choice/Consent
 
 Choice and consent in an on-line information-gathering sense means giving consumers options to control how their data is used. Specifically, choice relates to secondary uses of information beyond the immediate needs of the information collector to complete the consumer's transaction. The two typical types of choice models are 'opt-in' or 'opt-out.'
 
@@ -66,11 +66,11 @@ Access/Participation
 
 Access includes not only a consumer's ability to view the data collected but also to verify and contest its accuracy. This access must be inexpensive and timely in order to be useful to the consumer.
 
-Integrity/Security
+### Integrity/Security
 
 Information collectors should ensure that the data they collect is accurate and secure. They can improve the integrity of data by cross-referencing it with only reputable databases and by providing access for the consumer to verify it. Information collectors can keep their data secure by protecting against both internal and external security threats. They can limit access within their company to only necessary employees to protect against internal threats, and they can use encryption and other computer-based security systems to stop outside threats.
 
-Enforcement/Redress
+### Enforcement/Redress
 
 In order to ensure that companies follow the Fair Information Practice Principles, there must be enforcement measures. The FTC identified three types of enforcement measures: self-regulation by the information collectors or an appointed regulatory body; private remedies that give civil causes of action for individuals whose information has been misused to sue violators; and government enforcement that can include civil and criminal penalties levied by the government.
 
@@ -82,6 +82,7 @@ In order to ensure that companies follow the Fair Information Practice Principle
 * Only release the redacted, disconnected, and aggregated space-time points
 * Space-time points will be deleted after they are no longer actively needed, estimated at between 21 and 28 days.
 
+---------
 
 # Contact Tracing Bill of Rights
 
@@ -223,4 +224,4 @@ Importantly though, they cannot replace a full independent privacy audit. In-dep
 
 Building a contact tracing app that allows all of us to participate in the fight against COVID19 is possible, but it will require us to go beyond shallow reassurances that privacy is protected.
 
-PDF version
+[PDF version](https://cpg.doc.ic.ac.uk/blog/pdf/evaluating-contact-tracing-apps-here-are-8-privacy-questions-we-think-you-should-ask.pdf)
