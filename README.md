@@ -1,6 +1,6 @@
 # COVID-19 Contact Tracing Privacy Principles
 
-This draft document is for rapid input in support of an upcoming Special Release on COVID-19 Legal Frameworks to be published as part of the [MIT Computational Law Report at Law.MIT.edu](https://law.mit.edu).  An editorial and research tiger team are actively collecting and curating privacy principles for COVID-19 (CV19) contact tracing applications and services that leverage personal individual location and proximity data.  To offer feedback on or other contributions to this specific content on CV19 contact tracing privacy principles please make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) or add a [GitHub Issue](https://github.com/mitmedialab/CV19-Data-Privacy-Principles/issues) to this repository with proposed edits to this file.  To propose other content for publication as part of the MIT Computational Law Report please refer to our [Submission](https://law.mit.edu/submissions) page.
+This draft document is for rapid input in support of an upcoming Special Release on COVID-19 Legal Frameworks to be published as part of the [MIT Computational Law Report at Law.MIT.edu](https://law.mit.edu).  An editorial and research tiger team are actively collecting and curating privacy principles for COVID-19 (CV19) contact tracing applications and services that leverage personal individual location and proximity data.  To offer feedback on or other contributions to this specific content on CV19 contact tracing privacy principles please make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) or add a [GitHub Issue](https://github.com/ComputationalLaw/CV19-Data-Privacy-Principles/issues) to this repository with proposed edits to this file.  To propose other content for publication as part of the MIT Computational Law Report please refer to our [Submission](https://law.mit.edu/submissions) page.
 
 We have included materials from other groups on contact tracing privacy principles as well, potentially to synthesise into an overall set of principles.
 
@@ -8,7 +8,7 @@ We have included materials from other groups on contact tracing privacy principl
 
 # Law.MIT.edu Draft Contact Tracing Privacy Principles
 
-* Developed by: MIT Volunteer Drafting Team including: [Dazza Greenwood](https://www.linkedin.com/in/dazzagreenwood/), [Gregory Nadeau](https://www.linkedin.com/in/greg-nadeau-54529514), [Pagona Tsormpatzoudi](https://www.linkedin.com/in/pagona-tsormpatzoudi-0324903a), [Bryan Wilson](https://www.linkedin.com/in/bryangw) (others to be added to list as permissions are received)
+* Developed by: MIT Volunteer Drafting Team including: [Dazza Greenwood](https://www.linkedin.com/in/dazzagreenwood/), [Gregory Nadeau](https://www.linkedin.com/in/greg-nadeau-54529514), [Pagona Tsormpatzoudi](https://www.linkedin.com/in/pagona-tsormpatzoudi-0324903a), [Bryan Wilson](https://www.linkedin.com/in/bryangw), [Alex "Sandy" Pentland](https://www.linkedin.com/in/alexsandypentland/) (others to be added to list as permissions are received)
 * As collected on April 2, 2020
 * [https://mitmedialab.github.io/CV19-Data-Privacy-Principles](https://mitmedialab.github.io/CV19-Data-Privacy-Principles)
 
