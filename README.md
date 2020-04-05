@@ -1,6 +1,6 @@
 # COVID-19 Contact Tracing Privacy Principles
 
-This draft document is for rapid input in support of an upcoming Special Release on COVID-19 Legal Frameworks to be published as part of the [MIT Computational Law Report at Law.MIT.edu](https://law.mit.edu).  An editorial and research tiger team are actively collecting and curating privacy principles for COVID-19 (CV19) contact tracing applications and services that leverage personal individual location and proximity data.  To offer feedback on or other contributions to this specific content on CV19 contact tracing privacy principles please make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) or add a [GitHub Issue](https://github.com/ComputationalLaw/CV19-Data-Privacy-Principles/issues) to this repository with proposed edits to this file.  To propose other content for publication as part of the MIT Computational Law Report please refer to our [Submission](https://law.mit.edu/submissions) page.
+This draft document is for rapid input in support of an upcoming Special Release on COVID-19 Legal Frameworks to be published as part of the [MIT Computational Law Report at Law.MIT.edu](https://law.mit.edu).  An editorial and research tiger team are actively collecting and curating privacy principles for COVID-19 (CV19) contact tracing applications and services that leverage personal individual location and proximity data.  To offer feedback on or other contributions to this specific content on CV19 contact tracing privacy principles please make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) or add a [GitHub Issue](https://github.com/ComputationalLaw/CV19-Data-Privacy-Principles/issues/new) to this repository with proposed edits to this file.  To propose other content for publication as part of the MIT Computational Law Report please refer to our [Submission](https://law.mit.edu/submissions) page.
 
 We have included materials from other groups on contact tracing privacy principles as well, potentially to synthesise into an overall set of principles.
 
@@ -8,9 +8,9 @@ We have included materials from other groups on contact tracing privacy principl
 
 # Law.MIT.edu Draft Contact Tracing Privacy Principles
 
-* Developed by: MIT Volunteer Drafting Team including: [Dazza Greenwood](https://www.linkedin.com/in/dazzagreenwood/), [Gregory Nadeau](https://www.linkedin.com/in/greg-nadeau-54529514), [Pagona Tsormpatzoudi](https://www.linkedin.com/in/pagona-tsormpatzoudi-0324903a), [Bryan Wilson](https://www.linkedin.com/in/bryangw), [Alex "Sandy" Pentland](https://www.linkedin.com/in/alexsandypentland/) (others to be added to list as permissions are received)
+* Developed by: MIT Volunteer Drafting Team including: [Dazza Greenwood](https://www.linkedin.com/in/dazzagreenwood), [Gregory Nadeau](https://www.linkedin.com/in/greg-nadeau-54529514), [Pagona Tsormpatzoudi](https://www.linkedin.com/in/pagona-tsormpatzoudi-0324903a), [Bryan Wilson](https://www.linkedin.com/in/bryangw), [Alex "Sandy" Pentland](https://www.linkedin.com/in/alexsandypentland) (others to be added to list as permissions are received)
 * As collected on April 2, 2020
-* [https://mitmedialab.github.io/CV19-Data-Privacy-Principles](https://mitmedialab.github.io/CV19-Data-Privacy-Principles)
+* [https://computationallaw.github.io/CV19-Data-Privacy-Principles/](https://computationallaw.github.io/CV19-Data-Privacy-Principles)
 
 ### 1. Summary
 
@@ -81,13 +81,13 @@ In order to ensure that companies follow the Fair Information Practice Principle
 
 * Possible contacts determined privately on a user’s own device using open source code and cryptographic algorithms
 * Data never leave the user’s device (100% local), unless they become ill and opt to release it to a health official
-* Trusted health officials remove all diagnosed patient personally identifiable information – only releasing the redacted location trail
-* Only release the redacted, disconnected, and aggregated space-time points
+* Trusted health officials remove all diagnosed patient personally identifiable information
+* Only release the redacted, disconnected, and aggregated space-time points (from location data) or obfuscated identifiers (from e.g.,Bluetooth)
 * Space-time points will be deleted after they are no longer actively needed, estimated at between 21 and 28 days.
 
 ---------
 
-> _Below, Please find other relevant sources currenbtly under consideration for incorporation into a general set of CV19 Contact Tracing Principles.  If you are aware of other example materials relevant to CV19 contact tracing please let us know in our [GitHub Issues](https://github.com/mitmedialab/CV19-Data-Privacy-Principles/issues)._
+> _Below, Please find other relevant sources currenbtly under consideration for incorporation into a general set of CV19 Contact Tracing Principles.  If you are aware of other example materials relevant to CV19 contact tracing please let us know in our [GitHub Issues](https://github.com/ComputationalLaw/CV19-Data-Privacy-Principles/issues/new)._
 
 ---------
 
