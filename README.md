@@ -41,13 +41,7 @@ Consumers should be given notice of an entity's information practices before any
 
 #### Choice/Consent
 
-Choice and consent in an on-line information-gathering sense means giving consumers options to control how their data is used. Specifically, choice relates to secondary uses of information beyond the immediate needs of the information collector to complete the consumer's transaction. The two typical types of choice models are 'opt-in' or 'opt-out.'
-
-The 'opt-in' method requires that consumers affirmatively give permission for their information to be used for other purposes. Without the consumer taking these affirmative steps in an 'opt-in' system, the information gatherer assumes that it cannot use the information for any other purpose.
-
-The 'opt-out' method requires consumers to affirmatively decline permission for other uses. Without the consumer taking these affirmative steps in an 'opt-out' system, the information gatherer assumes that it can use the consumer's information for other purposes.
-
-Each of these systems can be designed to allow an individual consumer to tailor the information gatherer's use of the information to fit their preferences by checking boxes to grant or deny permission for specific purposes rather than using a simple "all or nothing" method.
+Choice and consent in an on-line information-gathering sense means giving consumers options to control how their data is used. Specifically, choice relates to secondary uses of information beyond the immediate needs of the information collector to complete the consumer’s transaction. The two typical types of choice models are ‘opt-in’ or ‘opt-out.’  Given the potential sensitivity of COVID-19 contact tracing data, not only is “opt-in” appropriate but the more rigorous standards governing “consent” are recommended.  
 
 > Implementation guidance:
 
