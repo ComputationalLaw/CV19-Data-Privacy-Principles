@@ -14,8 +14,6 @@ We have included materials from other groups on contact tracing privacy principl
 
 ### 1. Summary
 
-Each of us is the primary owner of our personal data.  Services that we each use may have additional limited rights and responsibilities to our personal data, based on specified terms and conditions appropriate to the service.  A doctor, for example, has the right to maintain patient data and the responsibility to preserve it and only share it with patient consent.
-
 Health, education, location, and contact tracing data is personal data.  No service provider or government agency should be able to use that data without user consent.
 
 ### 2. Technology should follow the principles of [Privacy by Design](https://en.wikipedia.org/wiki/Privacy_by_design)
