@@ -1,5 +1,7 @@
 # COVID-19 Contact Tracing Privacy Principles
 
+For the Law.MIT.edu current public published "working draft" (likely a few versions behind the content in this GitHub repository) please see: [https://law.mit.edu/pub/covid19contacttracingprivacyprinciples](https://law.mit.edu/pub/covid19contacttracingprivacyprinciples)
+
 This draft document is for rapid input in support of an upcoming Special Release on COVID-19 Legal Frameworks to be published as part of the [MIT Computational Law Report at Law.MIT.edu](https://law.mit.edu).  An editorial and research tiger team are actively collecting and curating privacy principles for COVID-19 (CV19) contact tracing applications and services that leverage personal individual location and proximity data.  To offer feedback on or other contributions to this specific content on CV19 contact tracing privacy principles please make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) or add a [GitHub Issue](https://github.com/ComputationalLaw/CV19-Data-Privacy-Principles/issues/new) to this repository with proposed edits to this file.  To propose other content for publication as part of the MIT Computational Law Report please refer to our [Submission](https://law.mit.edu/submissions) page.
 
 We have included materials from other groups on contact tracing privacy principles as well, potentially to synthesise into an overall set of principles.
@@ -227,3 +229,94 @@ Importantly though, they cannot replace a full independent privacy audit. In-dep
 Building a contact tracing app that allows all of us to participate in the fight against COVID19 is possible, but it will require us to go beyond shallow reassurances that privacy is protected.
 
 [PDF version](https://cpg.doc.ic.ac.uk/blog/pdf/evaluating-contact-tracing-apps-here-are-8-privacy-questions-we-think-you-should-ask.pdf)
+
+-----
+
+# 10 requirements for the evaluation of "Contact Tracing" apps
+
+* Developed by: German "Chaos Computer Club" (CCC) Europe's largest association of hackersan and advisor of the German government
+* As collected on April 7, 2020
+* [10 requirements for the evaluation of "Contact Tracing" apps](10 requirements for the evaluation of "Contact Tracing" apps)
+
+"Corona apps" are on everyone's lips as a way to contain the SARS-CoV-2 epidemic. CCC publishes 10 requirements for their evaluation from a technical and societal perspective.
+
+Currently, technically supported "contact tracing" is being considered as means to counteract the spread of SARS-CoV-2 in a more targeted manner. The general motivation is to allow greater freedom of movement for the broad spectrum of society by allowing quick tracing and interruption of infection chains. Contacts of infected persons should be alerted more quickly and thus be able to quarantine themselves more quickly. This, in turn, should prevent further infections. A "corona app" could therefore protect neither ourselves nor our contacts: It would be designed to break chains of infection by protecting the contacts of our contacts.
+
+### Contact Tracing as a risk technology
+
+There are a number of suggestions for the technical implementation of this concept. These proposals range from dystopian systems of full surveillance to targeted, completely anonymous methods of alerting potentially infected persons without knowledge of the specific person.
+
+In principle, the concept of a "Corona App" involves an enormous risk due to the contact and health data that may be collected. At the same time, there is a chance for "privacy-by-design" concepts and technologies that have been developed by the crypto and privacy community over the last decades. With the help of these technologies, it is possible to unfold the epidemilogical potential of contact tracing without creating a privacy disaster. For this reason alone, all concepts that violate or even endanger privacy must be strictly rejected.
+
+In the following, we outline social and technical minimum requirements for such technologies. The CCC sees itself in an advisory and observation role in this debate. We will not recommend specific apps, concepts or procedures. We however advise against the use of apps that do not meet these requirements.
+
+### I. Societal requirements
+
+1. Epidemiological sense & purpose
+
+The basic prerequisite is that "contact tracing" can realistically help to significantly and demonstrably reduce the number of infections. The validation of this assessment is the responsibility of epidemiology. If it turns out that "contact tracing" via app is not useful or does not fullfil the purpose, the experiment must be terminated.
+
+The application and any data collected must be used exclusively to combat SARS-CoV-2 infection chains. Any other use must be technically prevented as far as possible and legally prohibited.
+
+2. Voluntariness & freedom from discrimination
+
+For an epidemiologically significant efficacy, a "contact tracing" app requires a high degree of dissemination in society. This wide distribution must not be achieved by force, but only by implementing a trustworthy system that respects privacy. Against this background, there must be no levying of fees for use as well as no financial incentives for usage.
+
+People who refuse to use it must not experience any negative consequences. Ensuring this is a matter for politics and legislation.
+
+The app must regularly inform people about its operation. It must allow for simple temporary deactivation and permanent removal. Restrictive measures, e.g. an "electronic shackles" function to control contact restrictions, must not be implemented.
+
+3. Fundamental privacy
+
+Only with a convincing concept based on the principle of privacy can social acceptance be achieved at all.
+
+At the same time, verifiable technical measures such as cryptography and anonymisation technologies must ensure user privacy. It is not sufficient to rely on organisational measures, "trust" and promises. Organisational or legal hurdles against data access cannot be regarded as sufficient in the current social climate of state-of-emergency thinking and possible far-reaching exceptions to constitutional rights through the Infection Protection Act.
+
+We reject the involvement of companies developing surveillance technologies as "covid washing". As a basic principle, users should not have to 'trust' any person or institution with their data, but should enjoy documented and tested technical security.
+
+4. Transparency and verifiability
+
+The complete source code for the app and infrastructure must be freely available without access restrictions to allow audits by all interested parties. Reproducible build techniques must be used to ensure that users can verify that the app they download has been built from the audited source code.
+
+### II. Technical requirements
+
+5. No central entity to trust
+
+A completely anonymous contact tracing without omniscient central servers is technically possible. A dependence of the users' privacy on the trustworthiness and competence of the operator of central infrastructure is technically not necessary. Concepts based on this "trust" are therefore to be rejected.
+
+In addition, promised security and trustworthiness of centralised systems - for example against the connection of IP addresses with anonymous user IDs - cannot be effectively verified by users. Systems must therefore be designed to guarantee the security and confidentiality of user data exclusively through their encryption and anonymisation concept and the verifiability of the source code.
+
+6. Data economy
+
+Only minimal data and metadata necessary for the application purpose may be stored. This requirement prohibits the central collection of any data that is not specific to a contact between people and its duration.
+
+If additional data such as location information are recorded locally on the phones, users must not be forced or tempted to pass this data on to third parties or even publish it. Data that is no longer needed must be deleted. Sensitive data must also be securely encrypted locally on the phone.
+
+For voluntary data collection for epidemiological research purposes that goes beyond the actual purpose of contact tracing, a clear, separate consent must be explicitly obtained in the app's interface and it must be possible to revoke it at any time. This consent must not be a prerequisite for use.
+
+7. Anonymity
+
+The data that each device collects about other devices must not be suitable for deanonymizing their users. The data that each person may pass on about themself must not be suitable for deanonymising the person. It must therefore be possible to use the system without collecting or being able to derive personal data of any kind. This requirement prohibits unique user identifications.
+
+IDs for "contact tracing" via wireless technology (e.g. Bluetooth or ultrasound) must not be traceable to persons and must change frequently. For this reason, it is also forbidden to connect or derive IDs with accompanying communication data such as push tokens, telephone numbers, IP addresses used, device IDs etc.
+
+8. No creation of central movement or contact profiles
+
+The system must be designed in such a way that movement profiles (location tracking) or contact profiles (patterns of frequent contacts traceable to specific people) can't be established intentionally or unintentionally. Methods such as central GPS/location logging or linking the data to telephone numbers, social media accounts and the like must therefore be rejected as a matter of principle.
+
+9. Unlinkability
+
+The design of the temporary ID generation must be such that IDs cannot be interpreted and linked without possession of a user controlled private key. They must therefore not be derived from other directly or indirectly user identifying information. Regardless of the way IDs are communicated in the event of infection, it must be ruled out that the collected "contact tracing" data can be chained over longer periods of time.
+
+10. Unobservability of communication
+
+Even if the transmission of a message is observed in the system (e.g. via communication metadata), it must not be possible to conclude that a person is infected himself or herself or has had contact with infected persons. This must be ensured both with regard to other users and to infrastructure and network operators or attackers who gain insight into these systems.
+
+Role of the CCC
+
+For well over 30 years, CCC has engaged in voluntary work at the intersection between technology and society. Our ethical principles stand for privacy, decentralization and data economy – and against any form of surveillance and coercion.
+
+Without claiming to be exhaustive, in this article we name minimum privacy requirements that a "Corona App" must meet in order to be socially and technologically tolerable at all. CCC will under no circumstances ever provide a concrete implementation with approval, recommendation, a certificate or test seal.
+
+It is the responsibility of the developers of contact tracing systems to prove the fulfillment of these requirements or to have them proven by independent third parties.
+
