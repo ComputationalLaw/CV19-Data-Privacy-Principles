@@ -312,7 +312,7 @@ The design of the temporary ID generation must be such that IDs cannot be interp
 
 Even if the transmission of a message is observed in the system (e.g. via communication metadata), it must not be possible to conclude that a person is infected himself or herself or has had contact with infected persons. This must be ensured both with regard to other users and to infrastructure and network operators or attackers who gain insight into these systems.
 
-Role of the CCC
+### Role of the CCC
 
 For well over 30 years, CCC has engaged in voluntary work at the intersection between technology and society. Our ethical principles stand for privacy, decentralization and data economy – and against any form of surveillance and coercion.
 
