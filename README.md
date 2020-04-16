@@ -302,7 +302,7 @@ Building a contact tracing app that allows all of us to participate in the fight
 
 * Developed by: German "Chaos Computer Club" (CCC) Europe's largest association of hackersan and advisor of the German government
 * As collected on April 7, 2020
-* [10 requirements for the evaluation of "Contact Tracing" apps](10 requirements for the evaluation of "Contact Tracing" apps)
+* [10 requirements for the evaluation of "Contact Tracing" apps](https://www.ccc.de/en/updates/2020/contact-tracing-requirements)
 
 "Corona apps" are on everyone's lips as a way to contain the SARS-CoV-2 epidemic. CCC publishes 10 requirements for their evaluation from a technical and societal perspective.
 
