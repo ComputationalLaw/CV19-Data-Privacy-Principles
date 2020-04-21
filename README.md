@@ -1,6 +1,6 @@
 # COVID-19 Contact Tracing Privacy Principles
 
-For the Law.MIT.edu current public published "working draft" (likely a few versions behind the content in this GitHub repository) please see: [https://law.mit.edu/pub/covid19contacttracingprivacyprinciples](https://law.mit.edu/pub/covid19contacttracingprivacyprinciples)
+For the Law.MIT.edu current public published "working draft" (likely a few versions behind the content in this GitHub repository) please see: [https://law.mit.edu/pub/covid19contacttracingprivacyprinciples](https://law.mit.edu/pub/covid19contacttracingprivacyprinciples).  For a web-friendly version of the content in this GitHub repository see: [https://computationallaw.github.io/CV19-Data-Privacy-Principles/](https://computationallaw.github.io/CV19-Data-Privacy-Principles)
 
 -----
 
@@ -13,7 +13,7 @@ We have included materials from other groups on contact tracing privacy principl
 # Law.MIT.edu Draft Contact Tracing Privacy Principles
 
 * Developed by: MIT Volunteer Drafting Team including: [Dazza Greenwood](https://www.linkedin.com/in/dazzagreenwood), [Gregory Nadeau](https://www.linkedin.com/in/greg-nadeau-54529514), [Pagona Tsormpatzoudi](https://www.linkedin.com/in/pagona-tsormpatzoudi-0324903a), [Bryan Wilson](https://www.linkedin.com/in/bryangw), [Jeffrey Saviano](https://www.linkedin.com/in/jeffrey-saviano-1398775), and [Alex "Sandy" Pentland](https://www.linkedin.com/in/alexsandypentland) (others to be added to list as permissions are received)
-* This is the current development version of the Law.MIT.edu Draft Contact Tracing Privacy Principles at [https://computationallaw.github.io/CV19-Data-Privacy-Principles/](https://computationallaw.github.io/CV19-Data-Privacy-Principles)
+* This is the current development version of the Law.MIT.edu Draft Contact Tracing Privacy Principles published at [https://law.mit.edu/pub/covid19contacttracingprivacyprinciples](https://law.mit.edu/pub/covid19contacttracingprivacyprinciples)
 
 ### 1. Lawful
 
