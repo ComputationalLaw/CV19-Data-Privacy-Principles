@@ -2,7 +2,7 @@
 
 This GitHub repository is for a rapid development advance version of the public draft MIT Contact Tracing Privacy Principles, published at: [https://law.mit.edu/pub/covid19contacttracingprivacyprinciples](https://law.mit.edu/pub/covid19contacttracingprivacyprinciples).  For a web-friendly version of the content in this GitHub repository see: [https://computationallaw.github.io/CV19-Data-Privacy-Principles/](https://computationallaw.github.io/CV19-Data-Privacy-Principles).
 
-To offer feedback on or other contributions to this these contact tracing privacy principles please make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) or add a [GitHub Issue](https://github.com/ComputationalLaw/CV19-Data-Privacy-Principles/issues/new) to this repository with proposed edits to this file.
+To offer feedback on or other contributions to these contact tracing privacy principles please make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) or add a [GitHub Issue](https://github.com/ComputationalLaw/CV19-Data-Privacy-Principles/issues/new) to this repository with proposed edits to this file.
 
 We have included materials from other groups on contact tracing privacy principles as well, potentially to synthesise into an overall set of principles.
 
