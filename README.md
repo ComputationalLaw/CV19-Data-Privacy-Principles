@@ -13,39 +13,17 @@ We have included materials from other groups on contact tracing privacy principl
 # Law.MIT.edu Draft Contact Tracing Privacy Principles
 
 * Developed by: MIT Volunteer Drafting Team including: [Dazza Greenwood](https://www.linkedin.com/in/dazzagreenwood), [Gregory Nadeau](https://www.linkedin.com/in/greg-nadeau-54529514), [Pagona Tsormpatzoudi](https://www.linkedin.com/in/pagona-tsormpatzoudi-0324903a), [Bryan Wilson](https://www.linkedin.com/in/bryangw), [Jeffrey Saviano](https://www.linkedin.com/in/jeffrey-saviano-1398775), and [Alex "Sandy" Pentland](https://www.linkedin.com/in/alexsandypentland) (others to be added to list as permissions are received)
-* As collected on April 5, 2020
-* [https://computationallaw.github.io/CV19-Data-Privacy-Principles/](https://computationallaw.github.io/CV19-Data-Privacy-Principles)
+* This is the current development version of the Law.MIT.edu Draft Contact Tracing Privacy Principles at [https://computationallaw.github.io/CV19-Data-Privacy-Principles/](https://computationallaw.github.io/CV19-Data-Privacy-Principles)
 
-### 1. Summary
+### 1. Lawful
 
-Health, education, location, and contact tracing data is personal data.  No service provider or government agency should be able to use that data without user consent.
 
-### 2. Technology should follow the principles of [Privacy by Design](https://en.wikipedia.org/wiki/Privacy_by_design)
+### 2. Voluntary
 
-* Proactive not reactive; preventive, not remedial
-* Privacy as the default
-* Privacy embedded in the design
-* Full functionality – positive-sum, not zero-sum
-* End-to-end security – full lifecycle protection
-* Visibility and transparency – keep it open
-* Respect for user privacy – keep it user-centric
 
-### 3. Data should be protected in accordance with [Fair Information Practice Principles (FIPPs)](https://en.wikipedia.org/wiki/FTC_fair_information_practice)
+### 3. Informed Consent
 
-#### Notice/Awareness
-
-Consumers should be given notice of an entity's information practices before any personal information is collected from them.[10] This requires that companies explicitly notify some or all of the following:
-
-* identification of the entity collecting the data;
-* identification of the uses to which the data will be put;
-* identification of any potential recipients of the data;
-* the nature of the data collected and the means by which it is collected;
-* whether the provision of the requested data is voluntary or required;
-* the steps taken by the data collector to ensure the confidentiality, integrity, and quality of the data.
-
-#### Choice/Consent
-
-Choice and consent in an on-line information-gathering sense means giving consumers options to control how their data is used. Specifically, choice relates to secondary uses of information beyond the immediate needs of the information collector to complete the consumer’s transaction. The two typical types of choice models are ‘opt-in’ or ‘opt-out.’  Given the potential sensitivity of COVID-19 contact tracing data, not only is “opt-in” appropriate but the more rigorous standards governing “consent” are recommended.  
+Given the potential sensitivity of COVID-19 contact tracing data, not only is “opt-in” agreement necessary but the more rigorous standards governing “informed consent” are recommended.  
 
 > Implementation guidance:
 
@@ -61,25 +39,63 @@ Choice and consent in an on-line information-gathering sense means giving consum
 
 > There are alternative ways to present substantially similar text in the UX. E.g. splitting the screens and adding a “continue” button. Then the language will be adapted to “By clicking continue..”
 
-#### Access/Participation
+### 4. Identity Control
+
+Possible contacts determined privately on a user’s own device
+* Data never leave the user’s device (100% local), unless they become ill and opt to release it to a health official
+
+
+### 5. Access
 
 Access includes not only a consumer's ability to view the data collected but also to verify and contest its accuracy. This access must be inexpensive and timely in order to be useful to the consumer.
 
-#### Integrity/Security
+### 6. Transparency 
 
-Information collectors should ensure that the data they collect is accurate and secure. They can improve the integrity of data by cross-referencing it with only reputable databases and by providing access for the consumer to verify it. Information collectors can keep their data secure by protecting against both internal and external security threats. They can limit access within their company to only necessary employees to protect against internal threats, and they can use encryption and other computer-based security systems to stop outside threats.
+Consumers should be given notice of an entity's information practices before any personal information is collected from them.[10] This requires that companies explicitly notify some or all of the following:
 
-#### Enforcement/Redress
+* identification of the entity collecting the data;
+* identification of the uses to which the data will be put;
+* identification of any potential recipients of the data;
+* the nature of the data collected and the means by which it is collected;
+* whether the provision of the requested data is voluntary or required;
+* the steps taken by the data collector to ensure the confidentiality, integrity, and quality of the data.
 
-In order to ensure that companies follow the Fair Information Practice Principles, there must be enforcement measures. The FTC identified three types of enforcement measures: self-regulation by the information collectors or an appointed regulatory body; private remedies that give civil causes of action for individuals whose information has been misused to sue violators; and government enforcement that can include civil and criminal penalties levied by the government.
+Furthermore, to promote transparency, it is recommended that contact tracing apps use open source code and pubicly vetted cryptographic algorithms
 
-### 4. Potential Application of these Principles to MIT Private Kit Safe Paths Open Source Project
+### 7. Accountability
 
-* Possible contacts determined privately on a user’s own device using open source code and cryptographic algorithms
-* Data never leave the user’s device (100% local), unless they become ill and opt to release it to a health official
+In order to ensure that companies adhere to contact tracing privacy principles, there must be enforcement measures. The FTC identified three types of enforcement measures: self-regulation by the information collectors or an appointed regulatory body; private remedies that give civil causes of action for individuals whose information has been misused to sue violators; and government enforcement that can include civil and criminal penalties levied by the government.
+
+### 8. Proportionality
+
+Proportional to Effectiveness at Combatting Epidemic
+ - Deletion of Individual Data after no longer than duration needed [28 days]
+ - The potential risk that private information may be exposed or misused as a result of the contact tracing system must be proportional to the public health benefits of that system for combatting the epidemic. 
+ - Data Minimization
+ 
 * Trusted health officials remove all diagnosed patient personally identifiable information
 * Only release the redacted, disconnected, and aggregated space-time points (from location data) or obfuscated identifiers (from e.g.,Bluetooth)
 * Space-time points will be deleted after they are no longer actively needed, estimated at between 21 and 28 days.
+
+ 
+[Drafting note: Does the balance change for contact tracing systems used not for public health but for private sector workforce health protection?]
+ 
+
+## Other Pillars
+
+This document addresses privacy principles as a key pillar supporting successful contact tracing systems, however this is not the only pillar.  The following are other pillars that are related to privacy but discernable from and beyond the scope of privacy principles.
+
+#### Security
+
+Information collectors should ensure that the data they collect is accurate and secure. They can improve the integrity of data by cross-referencing it with only reputable databases and by providing access for the consumer to verify it. Information collectors can keep their data secure by protecting against both internal and external security threats. They can limit access within their company to only necessary employees to protect against internal threats, and they can use encryption and other computer-based security systems to stop outside threats.
+
+#### Effectiveness
+
+Effectiveness at combatting epidemic
+
+#### Usability
+
+#### Equity 
 
 ---------
 
