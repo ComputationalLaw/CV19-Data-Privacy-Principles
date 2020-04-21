@@ -82,6 +82,13 @@ Proportional to Effectiveness at Combatting Epidemic
 
  
 [Drafting note: Does the balance change for contact tracing systems used not for public health but for private sector workforce health protection?]
+
+### Legitimacy
+
+In a system that includes an aggregate data holder, the capabilities, duties and motivations of such entity must be appropriate to it's responsibility to safeguard the rights of people whose data it holds.  Ideally, such entity would hold fiduciary obligations to the people whose data it holds, but other combinations of requirements, constraints, incentives and counter-incentives can perform the same function.  
+
+ -  Page 6: https://www.aclu.org/report/aclu-white-paper-limits-location-tracking-epidemic?redirect=aclu-white-paper-limits-location-tracking-epidemic
+ -  Open questions: Should there ever be individual central authorities or should this role always be comrpised of a range of relevant stakeholders in governance of a system?  Should such a system always be distributed and decentralized?
  
 
 ## Other Pillars
@@ -94,7 +101,10 @@ Information collectors should ensure that the data they collect is accurate and 
 
 #### Effectiveness
 
-Effectiveness at combatting epidemic
+Effectiveness at combatting epidemic.
+ - measurably achieves the purpose for contact tracing
+ - accuracy and precision 
+ - audit, testing, etc
 
 #### Usability
 
