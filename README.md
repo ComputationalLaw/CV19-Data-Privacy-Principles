@@ -41,9 +41,12 @@ Given the potential sensitivity of COVID-19 contact tracing data, not only is �
 
 ### 4. Identity Control
 
-Possible contacts determined privately on a user’s own device
+* Possible contacts determined privately on a user’s own device
 * Data never leave the user’s device (100% local), unless they become ill and opt to release it to a health official
 
+* anonymity, pseudonymity
+* manage risk of reidentification 
+* Do not reveal to the authority the identity of users who are at risk
 
 ### 5. Access
 
