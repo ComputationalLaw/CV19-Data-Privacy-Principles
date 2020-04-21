@@ -83,7 +83,7 @@ Proportional to Effectiveness at Combatting Epidemic
  
 [Drafting note: Does the balance change for contact tracing systems used not for public health but for private sector workforce health protection?]
 
-### Legitimacy
+### 9. Legitimacy
 
 In a system that includes an aggregate data holder, the capabilities, duties and motivations of such entity must be appropriate to it's responsibility to safeguard the rights of people whose data it holds.  Ideally, such entity would hold fiduciary obligations to the people whose data it holds, but other combinations of requirements, constraints, incentives and counter-incentives can perform the same function.  
 
