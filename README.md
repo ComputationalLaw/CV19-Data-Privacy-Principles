@@ -65,7 +65,7 @@ Furthermore, to promote transparency, it is recommended that contact tracing app
 
 ### 7. Accountability
 
-In order to ensure that companies adhere to contact tracing privacy principles, there must be enforcement measures. The FTC identified three types of enforcement measures: self-regulation by the information collectors or an appointed regulatory body; private remedies that give civil causes of action for individuals whose information has been misused to sue violators; and government enforcement that can include civil and criminal penalties levied by the government.
+In order to ensure that organizations adhere to contact tracing privacy principles, there must be enforcement measures. The FTC identified three types of enforcement measures: self-regulation by the information collectors or an appointed regulatory body; private remedies that give civil causes of action for individuals whose information has been misused to sue violators; and government enforcement that can include civil and criminal penalties levied by the government.
 
 ### 8. Proportionality
 
