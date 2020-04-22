@@ -34,11 +34,7 @@ Aggregate data may be maintained for public research purposes. Precautions shoul
 
 Users must be able to view and have a copy of the data collected about them and also to verify and contest its accuracy. This access must be inexpensive and timely in order to be useful to the user.
 
-### 5. Access
-
-Access includes not only a consumer's ability to view the data collected but also to verify and contest its accuracy. This access must be inexpensive and timely in order to be useful to the consumer.
-
-### 6. Transparency 
+### 5. Transparency 
 Consumers should be given notice of an organization’s information practices before any personal information is collected from them. Organizations should explicitly describe the following:
 * identification of the entity collecting the data;
 * identification of the uses to which the data will be put;
@@ -49,12 +45,12 @@ Consumers should be given notice of an organization’s information practices be
 
 Furthermore, to promote transparency, contact tracing apps should use open source code and pubicly vetted cryptographic algorithms. Apps should use an openly published protocol to ensure that their solution is verifiable and interoperable. For example, the TCN Protocol, and Apple/Google COVID-19 contact tracing technology.
 
-### 7. Accountability
+### 6. Accountability
 In order to ensure that organizations adhere to contact tracing privacy principles, there must be enforcement measures. For example, the following are three types of enforcement measures: Self-regulation by the information collectors or an appointed regulatory body; Private remedies that give civil causes of action for individuals whose information has been misused to sue violators; and Government enforcement that can include civil and criminal penalties levied by the government.
 
 Relevant stakeholders should be fully involved and consulted in the development and deployment of an app, including data protection authorities, the privacy and security community, human rights and civil liberties organizations, government agencies, technology community, and public health professionals, including epidemiologists.
 
-### 8. Proportionality
+### 7. Proportionality
 The potential risk that private information may be exposed or misused as a result of the contact tracing system must be proportional to the public health benefits of that system for combatting the epidemic.
 
 The analysis of proportionality should take into account factors including but not limited to scope and purpose of the app, type(s) of data collected, collection processes, sharing, retention, and deletion of data.
