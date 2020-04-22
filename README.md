@@ -14,46 +14,32 @@ We have included materials from other groups on contact tracing privacy principl
 * This is the current development version of the Law.MIT.edu Draft Contact Tracing Privacy Principles published at [https://law.mit.edu/pub/covid19contacttracingprivacyprinciples](https://law.mit.edu/pub/covid19contacttracingprivacyprinciples)
 
 ### 1. Lawful
-
+Contact tracing apps must comply will all applicable laws, rules and regulations. Any data collection and use must have a lawful basis.
 
 ### 2. Voluntary
-
+Use of contact tracing apps should be voluntary and not mandatory or compelled.
 
 ### 3. Informed Consent
-
-Given the potential sensitivity of COVID-19 contact tracing data, not only is “opt-in” agreement necessary but the more rigorous standards governing “informed consent” are recommended.  
-
-> Implementation guidance:
-
-> It is recommended that the opt-in consent option is implemented as that will comply with a good number of data protection laws globally
-
-> Template consent language like the below should be considered:
-
-> “I consent to (Add Controller Name OR App Name if whitelabelled to the Controller) processing my:
-
-> (Add unticked checkbox OR toggle off) Location data
-
-> (Add unticked checkbox OR toggle off) Health data for the purpose of COVID 19 contact tracing in accordance with the (Add link to the Controller Privacy Notice).”
-
-> There are alternative ways to present substantially similar text in the UX. E.g. splitting the screens and adding a “continue” button. Then the language will be adapted to “By clicking continue..”
+A user must provide informed consent as a prerequisite for installation and use of a contact tracing app. A user should be able to give their consent to each functionality of an app separately, such as collection of proximity data, location data, sharing data or other key separate functions.
 
 ### 4. Identity Control
 
-* Possible contacts determined privately on a user’s own device
-* Data never leave the user’s device (100% local), unless they become ill and opt to release it to a health official
+Users make the determination to release redacted, disconnected, and/or aggregated space-time points from location data, or obfuscated identifiers from e.g.,Bluetooth.
 
-* anonymity, pseudonymity
-* manage risk of reidentification 
-* Do not reveal to the authority the identity of users who are at risk
+Space-time points should be deleted after they are no longer actively needed, estimated at between 21 and 28 days.
+
+No information about an at-risk user should be required other than that which is essential, based on epidemiological standards, for alerting others to potential exposure.
+
+Aggregate data may be maintained for public research purposes. Precautions should be taken to ensure that shared aggregate data may not be re-identified downstream.
+
+Users must be able to view and have a copy of the data collected about them and also to verify and contest its accuracy. This access must be inexpensive and timely in order to be useful to the user.
 
 ### 5. Access
 
 Access includes not only a consumer's ability to view the data collected but also to verify and contest its accuracy. This access must be inexpensive and timely in order to be useful to the consumer.
 
 ### 6. Transparency 
-
-Consumers should be given notice of an entity's information practices before any personal information is collected from them.[10] This requires that companies explicitly notify some or all of the following:
-
+Consumers should be given notice of an organization’s information practices before any personal information is collected from them. Organizations should explicitly describe the following:
 * identification of the entity collecting the data;
 * identification of the uses to which the data will be put;
 * identification of any potential recipients of the data;
@@ -61,37 +47,28 @@ Consumers should be given notice of an entity's information practices before any
 * whether the provision of the requested data is voluntary or required;
 * the steps taken by the data collector to ensure the confidentiality, integrity, and quality of the data.
 
-Furthermore, to promote transparency, it is recommended that contact tracing apps use open source code and pubicly vetted cryptographic algorithms
+Furthermore, to promote transparency, contact tracing apps should use open source code and pubicly vetted cryptographic algorithms. Apps should use an openly published protocol to ensure that their solution is verifiable and interoperable. For example, the TCN Protocol, and Apple/Google COVID-19 contact tracing technology.
 
 ### 7. Accountability
+In order to ensure that organizations adhere to contact tracing privacy principles, there must be enforcement measures. For example, the following are three types of enforcement measures: Self-regulation by the information collectors or an appointed regulatory body; Private remedies that give civil causes of action for individuals whose information has been misused to sue violators; and Government enforcement that can include civil and criminal penalties levied by the government.
 
-In order to ensure that organizations adhere to contact tracing privacy principles, there must be enforcement measures. The FTC identified three types of enforcement measures: self-regulation by the information collectors or an appointed regulatory body; private remedies that give civil causes of action for individuals whose information has been misused to sue violators; and government enforcement that can include civil and criminal penalties levied by the government.
+Relevant stakeholders should be fully involved and consulted in the development and deployment of an app, including data protection authorities, the privacy and security community, human rights and civil liberties organizations, government agencies, technology community, and public health professionals, including epidemiologists.
 
 ### 8. Proportionality
+The potential risk that private information may be exposed or misused as a result of the contact tracing system must be proportional to the public health benefits of that system for combatting the epidemic.
 
-Proportional to Effectiveness at Combatting Epidemic
- - Deletion of Individual Data after no longer than duration needed [28 days]
- - The potential risk that private information may be exposed or misused as a result of the contact tracing system must be proportional to the public health benefits of that system for combatting the epidemic. 
- - Data Minimization
- 
-* Trusted health officials remove all diagnosed patient personally identifiable information
-* Only release the redacted, disconnected, and aggregated space-time points (from location data) or obfuscated identifiers (from e.g.,Bluetooth)
-* Space-time points will be deleted after they are no longer actively needed, estimated at between 21 and 28 days.
-
- 
-[Drafting note: Does the balance change for contact tracing systems used not for public health but for private sector workforce health protection?]
-
-### 9. Legitimacy
-
-In a system that includes an aggregate data holder, the capabilities, duties and motivations of such entity must be appropriate to it's responsibility to safeguard the rights of people whose data it holds.  Ideally, such entity would hold fiduciary obligations to the people whose data it holds, but other combinations of requirements, constraints, incentives and counter-incentives can perform the same function.  
-
- -  Page 6: https://www.aclu.org/report/aclu-white-paper-limits-location-tracking-epidemic?redirect=aclu-white-paper-limits-location-tracking-epidemic
- -  Open questions: Should there ever be individual central authorities or should this role always be comrpised of a range of relevant stakeholders in governance of a system?  Should such a system always be distributed and decentralized?
- 
+The analysis of proportionality should take into account factors including but not limited to scope and purpose of the app, type(s) of data collected, collection processes, sharing, retention, and deletion of data.
 
 ## Other Pillars
 
 This document addresses privacy principles as a key pillar supporting successful contact tracing systems, however this is not the only pillar.  The following are other pillars that are related to privacy but discernable from and beyond the scope of privacy principles.
+
+#### Trustworthy Criteria of Aggregate Data Holders
+
+In a system that includes an aggregate data holder, the capabilities, duties and motivations of such entity must be appropriate to it's responsibility to safeguard the rights of people whose data it holds.  Ideally, such entity would hold fiduciary obligations to the people whose data it holds, but other combinations of requirements, constraints, incentives and counter-incentives can perform the same function.  
+ -  Page 6: https://www.aclu.org/report/aclu-white-paper-limits-location-tracking-epidemic?redirect=aclu-white-paper-limits-location-tracking-epidemic
+ -  Open questions: Should there ever be individual central authorities or should this role always be comrpised of a range of relevant stakeholders in governance of a system?  Should such a system always be distributed and decentralized?
+ 
 
 #### Security
 
@@ -109,11 +86,12 @@ Effectiveness at combatting epidemic.
 #### Equity 
 
 ---------
+---------
 
 > _Below, Please find other relevant sources currenbtly under consideration for incorporation into a general set of CV19 Contact Tracing Principles.  If you are aware of other example materials relevant to CV19 contact tracing please let us know in our [GitHub Issues](https://github.com/ComputationalLaw/CV19-Data-Privacy-Principles/issues/new)._
 
 ---------
-
+---------
 # CoEpi and CovidWatch Contact Tracing Bill of Rights
 
 * Developed by: CoEpi and CovidWatch
