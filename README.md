@@ -31,7 +31,7 @@ Aggregate data may be maintained for public research purposes. Precautions shoul
 Users must be able to view and have a copy of the data collected about them and also to verify and contest its accuracy. This access must be inexpensive and timely in order to be useful to the user.
 
 ### Transparency
-Consumers should be given notice of an organization’s information practices before any personal information is collected from them. Organizations should explicitly describe the following:
+Users should be given notice of an organization’s information practices before any personal information is collected from them. Organizations should explicitly describe the following:
 * identification of the entity collecting the data;
 * identification of the uses to which the data will be put;
 * identification of any potential recipients of the data;
@@ -39,17 +39,18 @@ Consumers should be given notice of an organization’s information practices be
 * whether the provision of the requested data is voluntary or required;
 * the steps taken by the data collector to ensure the confidentiality, integrity, and quality of the data.
 
-Contact tracing apps should use open source code and publicly vetted cryptographic algorithms. Apps should use an openly published protocol to ensure that their solution is verifiable and interoperable. For example, DP^3T, PACT, the TCN Protocol, and Apple/Google COVID-19 contact tracing technology.
+Contact tracing apps should use open source code and publicly vetted cryptographic algorithms. Contact tracing apps should use an openly published protocol to ensure that their solution is verifiable and interoperable. For example, [DP^3T](https://github.com/DP-3T/), [PACT](https://pact.mit.edu/), [the TCN Protocol](https://github.com/TCNCoalition/TCN), and [Apple/Google COVID-19 contact tracing technology](https://www.apple.com/covid19/contacttracing).
 
 ### Accountability
-In order to ensure that organizations adhere to contact tracing privacy principles, there must be enforcement measures. For example, the following are three types of enforcement measures: Self-regulation by the information collectors or an appointed regulatory body; Private remedies that give civil causes of action for individuals whose information has been misused to sue violators; and Government enforcement that can include civil and criminal penalties levied by the government.
+In order to ensure that organizations adhere to contact tracing privacy principles, there must be enforcement measures, such as: Self-regulation by the information collectors or an appointed regulatory body; Private remedies that give civil causes of action for individuals whose information has been misused to sue violators; and Government enforcement that can include civil and criminal penalties levied by the government.
 
-Relevant stakeholders should be fully involved and consulted in the development and deployment of an app, including data protection authorities, the privacy and security community, human rights and civil liberties organizations, government agencies, technology community, and public health professionals, including epidemiologists.
+Relevant stakeholders should be fully involved and consulted in the development and deployment of a contact tracing app, including data protection authorities, the privacy and security community, human rights and civil liberties organizations, government agencies, technology community, and public health professionals, including epidemiologists.
 
 ### Proportionality
-The potential risk that private information may be exposed or misused as a result of the contact tracing system must be proportional to the public health benefits of that system for combating the epidemic.
+The potential risk that private information may be exposed or misused as a result of a contact tracing system must be proportional to the public health benefits of that system for combating the epidemic.
 
-The analysis of proportionality should take into account factors including but not limited to scope and purpose of the app, type(s) of data collected, collection processes, sharing, retention, and deletion of data.
+The analysis of proportionality should take into account the efficacy of the contact tracing app at reducing the incidence of new cases and factors including but not limited to scope and purpose of the contact tracing app, type(s) of data collected, collection processes, sharing, retention, and deletion of data.
+
 ## Other Pillars
 This document addresses privacy principles as a key pillar supporting successful contact tracing systems, however this is not the only pillar. The following are other pillars that are related to privacy but discernible from and beyond the scope of privacy principles.
 
