@@ -276,3 +276,5 @@ What is the period of time contact data can be maintained?
 ### D. Effectiveness
 ### E. Usability
 ### F. Equity
+
+> Notes for collaborative HackMD document: https://hackmd.io/snTT8pdOTWSjylE0JeYfrA?edit
