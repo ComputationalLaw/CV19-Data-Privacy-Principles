@@ -8,6 +8,10 @@
 #### 2. Contact-Tracking - Forward looking, tracking people post positive diagnosis
 #### 3. Public Health Emergency
 #### 4. Consent - (Taylor) (Distinguish “A public health emergency (the condition that requires the governor to declare a state of public health emergency) is defined as "an occurrence or imminent threat of an illness or health condition, caused by bio terrorism, epidemic or pandemic disease, or (a) novel and highly fatal infectious agent or biological toxin, that poses a substantial risk of a significant number of human facilities or incidents or permanent or long-term disability (WHO/DCD, 2001). The declaration of a state of public health emergency permits the governor to suspend state regulations, change the functions of state agencies.” WHO (https://www.who.int/hac/about/definitions/en/)
+We believe consent has to be accompanied by context and control. Even as we aspire to help stymie the spread of the virus, we can also do so if we make the user a key data point among many others. Even as we believe that our services will provide a net positive value to society, individual users will need to provide data so as to make the composite functionality effective.
+As such, in order to ensure that user consent is informed, we will ensure that we have provided information on data collection, processing and protection, as well as build in mechanisms to guard against unsanctioned uses of the data. 
+These steps will help ensure consistent and ongoing alignment between user awareness and usage of their data, thereby making the consent meaningful. 
+
 #### 5. Deletion (Alexa) 
 #### 6. Authority
 ##### a. Lawfulness (Dazza) 
